@@ -50,5 +50,10 @@ pipeline {
                 echo "Password: ${params.PASSWORD}"
             }
         }
+        stage('Trigger') {
+            steps {
+                sh 'echo This is triggeer stage'
+            }
+        }
     }
 }
