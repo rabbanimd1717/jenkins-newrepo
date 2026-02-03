@@ -29,6 +29,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo This is build stage'
+                sh ygsygyg
             }
         }
         stage('Test') {
