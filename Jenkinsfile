@@ -29,7 +29,6 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo This is test stage'
-                sleep 10
             }
         }
         stage('Deploy') {
@@ -50,9 +49,9 @@ pipeline {
                 echo "Password: ${params.PASSWORD}"
             }
         }
-        stage('Trigger') {
+        stage('Trigg') {
             steps {
-                sh 'echo This is triggeer stage'
+                sh 'echo This is trigg stage'
             }
         }
     }
