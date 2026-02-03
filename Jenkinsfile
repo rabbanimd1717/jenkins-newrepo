@@ -51,7 +51,7 @@ pipeline {
         }
         stage('Trigger') {
             steps {
-                sh 'echo This is trigg stage'
+                sh 'echo This is triggomn stage'
             }
         }
     }
